@@ -4,8 +4,8 @@ export default defineConfig({
   title: 'AgencyOS Docs',
   description: 'Технічна документація для AgencyOS - операційної системи для цифрових агентств',
 
-  // Базовий URL для деплою
-  base: '/docs/',
+  // Базовий URL для деплою (GitHub Pages для репозиторію ptarasyuk/directus-agency-os)
+  base: '/directus-agency-os/',
 
   // Мова
   lang: 'uk',
