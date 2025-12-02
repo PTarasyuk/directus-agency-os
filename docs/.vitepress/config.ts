@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'Модулі', link: '/modules/' },
       { text: 'Компоненти', link: '/components/' },
       { text: 'Layers', link: '/layers/' },
+      { text: 'Дизайн', link: '/design/' },
       { text: 'API', link: '/api/' },
       { text: 'Розгортання', link: '/deployment/' },
     ],
@@ -40,6 +41,8 @@ export default defineConfig({
             { text: 'Directus Template', link: '/guide/directus-template' },
             { text: 'Розширення AgencyOS', link: '/guide/extending' },
             { text: 'Словник термінів', link: '/guide/glossary' },
+            { text: 'Залежності', link: '/guide/dependencies' },
+            { text: 'Найкращі практики', link: '/guide/best-practices' },
           ]
         }
       ],
@@ -57,6 +60,7 @@ export default defineConfig({
             { text: 'File-based Routing', link: '/architecture/routing' },
             { text: 'Auto-imports', link: '/architecture/auto-imports' },
             { text: 'Рендеринг', link: '/architecture/rendering' },
+            { text: 'Ключові файли', link: '/architecture/key-files' },
           ]
         }
       ],
@@ -69,6 +73,9 @@ export default defineConfig({
             { text: 'Композабли', link: '/modules/composables' },
             { text: 'Плагіни', link: '/modules/plugins' },
             { text: 'Middleware', link: '/modules/middleware' },
+            { text: 'Portal Layer', link: '/modules/portal' },
+            { text: 'Proposals Layer', link: '/modules/proposals' },
+            { text: 'Directus модуль (деталі)', link: '/modules/directus' },
           ]
         }
       ],
@@ -101,7 +108,10 @@ export default defineConfig({
             { text: 'Огляд API', link: '/api/' },
             { text: 'Автентифікація', link: '/api/authentication' },
             { text: 'Endpoints', link: '/api/endpoints' },
+            { text: 'Server API', link: '/api/server-api' },
             { text: 'Server Utils', link: '/api/server-utils' },
+            { text: 'API композабли', link: '/api/composables' },
+            { text: 'Directus SDK', link: '/api/directus-sdk' },
           ]
         }
       ],
@@ -113,6 +123,15 @@ export default defineConfig({
             { text: 'Frontend', link: '/deployment/frontend' },
             { text: 'Backend', link: '/deployment/backend' },
             { text: 'Environment Variables', link: '/deployment/environment' },
+          ]
+        }
+      ],
+      '/design/': [
+        {
+          text: 'Дизайн',
+          items: [
+            { text: 'Дизайн‑система', link: '/design/' },
+            { text: 'UX‑патерни', link: '/design/patterns' },
           ]
         }
       ],
