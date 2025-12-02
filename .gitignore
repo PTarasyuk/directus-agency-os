@@ -6,6 +6,7 @@ node_modules
 .output
 .env
 dist
+!docs/.vitepress/dist
 .DS_Store
 .vscode
 .eslintcache

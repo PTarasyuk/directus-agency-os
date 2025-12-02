@@ -157,5 +157,10 @@ export default defineConfig({
       light: 'github-light',
       dark: 'github-dark'
     }
-  }
+  },
+
+	ignoreDeadLinks: [
+		'http://localhost:5173',
+		'http://localhost:3000'
+	]
 })
