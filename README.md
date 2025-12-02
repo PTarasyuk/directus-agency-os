@@ -218,7 +218,7 @@ Navigate to the project
 
 Your `.env` file should look similar to this.
 
-```env
+```txt
 # Directus Setup
 DIRECTUS_URL="https://your-instance.directus.app"
 DIRECTUS_SERVER_TOKEN="your_directus_server_token_for_server_only_routes"

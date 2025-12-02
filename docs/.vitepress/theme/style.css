@@ -1,0 +1,20 @@
+/* Кастомні стилі для документації */
+
+:root {
+  --vp-c-brand: #8b5cf6;
+  --vp-c-brand-light: #a78bfa;
+  --vp-c-brand-lighter: #c4b5fd;
+  --vp-c-brand-dark: #7c3aed;
+  --vp-c-brand-darker: #6d28d9;
+}
+
+/* Стилі для код блоків */
+.vp-code-group {
+  margin: 1rem 0;
+}
+
+/* Покращення читабельності */
+.vp-doc {
+  max-width: 900px;
+}
+
